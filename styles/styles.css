@@ -1,0 +1,124 @@
+#hero {
+  height: 800px;
+  background-image: url("./images/places/thesea.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#hero-content {
+  width: 500px;
+  background-color: rgb(51, 47, 47, 0.6);
+  box-shadow: 2px 4px 8px rgb(68, 68, 67);
+  border-radius: 8px;
+  text-align: center;
+  padding: 25px 20px;
+  margin: 0px auto;
+  position: relative;
+  top: 455px;
+  color: aliceblue;
+}
+
+#hero-content a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  background-color: rgb(244, 227, 47);
+  border-radius: 2px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0);
+  padding: 3px 10px;
+  font-weight: bold;
+  border-top: 50px;
+}
+
+hero-content p {
+  padding: 0px 0px 25px 0px;
+}
+
+#hero-content a:hover {
+  background-color: rgb(174, 161, 20);
+}
+
+#hero-content h1 {
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0px auto;
+}
+
+#hero-content p {
+  margin: 0px 0px 30px 0px;
+}
+
+#bestbits {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+#highlights {
+  padding: 24px;
+  box-sizing: border-box;
+  background: linear-gradient(45deg, rgb(208, 236, 234), rgb(80, 208, 227));
+}
+
+#highlights h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 24px 0px;
+}
+.bit {
+  margin: 0px 20px;
+  text-transform: capitalize;
+}
+
+.bit p {
+  text-align: center;
+  margin: 17px 0px;
+}
+.bit img {
+  height: 250px;
+  width: 320px;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgb(68, 68, 67);
+  object-fit: cover;
+}
+
+.bit strong {
+  color: rgb(244, 227, 47);
+}
+
+#highlights_me {
+  text-align: center;
+}
+
+#bestbits_me {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0 auto;
+  width: 75%;
+}
+
+.card_info{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.bit_me p {
+  padding: 2rem 2rem;
+  max-width: 17rem;
+  text-align: center;
+  margin: auto;
+}
+
+.bit_me img {
+  height: 300px;
+  width: 350px;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgb(68, 68, 67);
+  object-fit: cover;
+
+}
+
+
